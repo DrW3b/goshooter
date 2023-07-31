@@ -80,7 +80,7 @@ func printPattern(color string) {
 	pattern += fmt.Sprintf("██║   ██║██║   ██║╚════██║██╔══██║██║   ██║██║   ██║   ██║   ██╔══╝  ██╔══██╗\n")
 	pattern += fmt.Sprintf("╚██████╔╝╚██████╔╝███████║██║  ██║╚██████╔╝╚██████╔╝   ██║   ███████╗██║  ██║\n")
 	pattern += fmt.Sprintf(" ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚═╝  ╚═╝%s\n", colorReset)
-	pattern += fmt.Sprintf("%s%-17s%s\n", colorGreen, "                          goshooter v1.0", colorReset)
+	pattern += fmt.Sprintf("%s%-17s%s\n", colorRed, "                          goshooter v1.0", colorReset)
 	pattern += fmt.Sprintf("%s%-13s%s\n", colorRed, "                          Coded by DrW3B", colorReset)
 	pattern += fmt.Sprintf("%s                          Telegram: @DrW33B_Xo%s\n", colorRed, colorReset)
 
