@@ -29,10 +29,8 @@ const (
 func main() {
 	flag.Parse()
 
-	// Show the banner in red when the script starts.
 	printPattern(colorRed)
 
-	// Set the logger's output to os.Stdout to show logs without storing them in a file.
 	log.SetOutput(os.Stdout)
 
 	data, err := ioutil.ReadFile(*fileFlag)
