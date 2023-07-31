@@ -42,7 +42,7 @@ To install GoShooter on your system, follow these steps:
     ./install.sh
     ```
 
-Now, you can run GoShooter from any location on your system.
+Once you've completed these steps, you should be able to run the `goshooter` command from any location in your terminal or command prompt and you can remove the folder goshooter.
 
 ## Usage
 
